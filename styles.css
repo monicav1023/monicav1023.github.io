@@ -1,0 +1,23 @@
+
+         .a1 {background-color:rgb(0, 234, 255 );font-size: medium;font-weight: bold;font-family:Arial;line-height: 1.2;}
+         
+         .a2 {background-color: rgb(0, 234, 255);font-size: medium;font-family:Arial;font-weight: bold;}
+         .a3 {background-color: rgb(0, 234, 255);font-size: medium;font-family:Arial;font-weight: bold;}
+         .a11 {font-size: medium;font-family:arial;font-weight: lighter;}
+      h1 {background-color: rgb(255, 224, 196);
+      font-size: large;
+      width: 320px;}
+      h2 {background-color: rgb(196, 245, 255);
+      font-size: large;
+      width: 320px;}
+      p {
+        color: rgba(51, 0, 255, 0.538);
+        font-family: arial;line-height: 1.2;font-weight: bolder;
+        font-size: 100%;}
+      ul {
+  width: 600px;
+  padding: 2em;
+  border: 10px solid gray;
+  margin: 0;
+      }
+      

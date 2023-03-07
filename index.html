@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ES">
+  <head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"type="text/css" href="styles.css" media="screen">
+    <script src="scriptsboton1.js">
+    </script>
+    
+  </head>   
+
+
+
+<body>
+  <style>
+    #pag2 {display: none;}
+    #otrobtn {display: none;}
+    #adicional {display: none;}
+  </style>   
+   <img src="https://randomuser.me/api/portraits/women/79.jpg" alt=""> 
+<h1>CURRICULUM VITAE </h1>
+<div id="pag1">
+<h2>DATOS PERSONALES</h2>
+ 
+<ul class="a1">
+  <li>APELLIDO Y NOMBRES:<span class="a11"> Dias, Nadia</span></li>
+  <p>                                                       </p>
+  <p>                                                       </p>
+  <p>                                                       </p>
+  <li>NUMERO DE DOCUMENTO:<span class="a11">23885116</span></li>
+  <p>                                                       </p>
+  <p>                                                       </p>
+  <p>                                                       </p>
+  <li>FECHA DE NACIMIENTO:<span class="a11">21-03-1989</span></li>
+  <p>                                                       </p>
+  <p>                                                       </p>
+  <p>                                                       </p>
+  <li>CONTACTO: <span class="a11"><a href="mailto:nadydias@huuu.com">nadydias@yahuu.com</a></span>            </li>
+  <p>                                                       </p>
+  <p>                                                       </p>
+  <p>                                                       </p>
+</ul>
+<h2>FORMACION ACADEMICA</h2>
+<ul class="a2">
+<li>TITULO UNIVERSITARIO:<span class="a11">Ingeniera en Informatica</span></li>
+<p>                                                       </p>
+<p>                                                       </p>
+<p>                                                       </p>
+  <li>UNIVERSIDAD:<span class="a11">Facultad de Ingenieria -Unversidad Nacional de la Ciudad </span> </li>
+  <p>                                                       </p>
+  <p>                                                       </p>
+  <p>                                                       </p>
+  <li>FECHA DE EGRESO:<span class="a11">5-6-2014</span></li>
+</ul></div>
+<div id="pag2">
+<h2>EXPERIENCIA PROFESIONAL</h2>
+
+<ul class="a3">
+    <li>EMPRESA: <span class="a11">EMPRESA UNO S.A.</span></li>
+    <p>                                                       </p>
+  <p>                                                       </p>
+  <p>                                                       </p>
+  <li>FUNCIONES:<span class="a11">Programadora Front End  Java Script, HTML
+    Desarrollo de Paginas Web comerciales</span></li>
+    <p>                                                       </p>
+  <p>                                                       </p>
+  <p>                                                       </p>
+    <li>FECHA DE INGRESO /EGRESO:<span class="a11">6-5-2012 a 6-5-2014 Motivo: renuncia</span> </li>
+    <p>                                                       </p>
+  <p>                                                       </p>
+  <p>                                                       </p>
+  <li>EMPRESA :<span class="a11">EMPRESA DOS S.A.</span></li>
+  <p>                                                       </p>
+  <p>                                                       </p>
+  <p>                                                       </p>
+  <li>FUNCIONES:<span class="a11">Coordinacion y gerenciamiento  de Proyectos integrados de software y elaboracion y gestion de bases de datos,
+    desarrollo de Presupuestos.</span> </li>
+    <p>                                                       </p>
+  <p>                                                       </p>
+  <p>                                                       </p>
+  <li>FECHA DE INGRESO /EGRESO:<span class="a11">7-5-2014 y continua</span> </li>
+</ul></div>
+<div id="adicional">
+  <p> EXPERIENCIA DOCENTE : Docente Universitaria desde 2015 y continua. Categoria: Jefe de Trabajos Practicos Regular<br>
+    Asignatura: "Algoritmos y estructura de datos"- Departamento: Computacion- Facultad de Ingenieria- Universidad Nacional<br>
+     Lenguajes de Programacion: C++, Pascal, HTML,Java y Java Script<br> Otras aplicaciones manejadas: Software de calculos matematicos Geogebra
+     y Aplicaciones de tecnicas Inmersivas<br> ( realidad aumentada, realidad virtual),<br> Manejo y programacion de Plataforma Moodle de Campus Universitario.<br>
+     
+
+
+
+     <br>IDIOMAS: Ingles - Nivel avanzado- Fluidez avanzada First Certificate<br>
+              Frances- Nivel avanzado- Fluidez avanzada <br>
+              Portugues- Nivel Intermedio <br> </p>
+
+</div>
+<button onclick="myFunction()" id="myBtn">Siguiente</button>
+<script>
+  function myFunction() {
+  var pag1 = document.getElementById("pag1");
+  var btnText = document.getElementById("myBtn");
+var btnotro = document.getElementById("otrobtn");
+  var  pag2 = document.getElementById("pag2");
+  var  adicional = document.getElementById("adicional"); 
+  if (pag1.style.display === "none") {
+    pag1.style.display = "inline";
+    btnText.innerHTML = "Siguiente"; 
+    btnotro.style.display ="none";
+    pag2.style.display = "none";
+    adicional.style.display ="none";
+    document.getElementById("otrobtn").removeAttribute("disabled"); 
+  } else {
+    pag1.style.display = "none";
+    btnText.innerHTML = "previo"; 
+    btnotro.style.display ="inline";
+    pag2.style.display="inline"
+  }
+}
+</script>
+<button onclick="otrafuncion()" id="otrobtn"; >Informacion adicional</button>
+<script>
+  function otrafuncion() {
+    var  pag2 = document.getElementById("pag2");
+    var  adicional = document.getElementById("adicional"); 
+    pag2.style.display = "none";
+    adicional.style.display ="inline"
+    document.getElementById("otrobtn").setAttribute("disabled", "disabled");
+  
+  
+
+  }
+</script>
+
+</body>
+
+</html>
