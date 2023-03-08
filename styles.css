@@ -3,7 +3,7 @@
          
          .a2 {background-color: rgb(0, 234, 255);font-size: medium;font-family:Arial;font-weight: bold;}
          .a3 {background-color: rgb(0, 234, 255);font-size: medium;font-family:Arial;font-weight: bold;}
-         .a11 {font-size: medium;font-family:arial;font-weight: lighter;}
+         .a11 {font-size: medium;font-family:Arial;font-weight: lighter;}
       h1 {background-color: rgb(255, 224, 196);
       font-size: large;
       width: 320px;}
@@ -11,8 +11,8 @@
       font-size: large;
       width: 320px;}
       p {
-        color: rgba(51, 0, 255, 0.538);
-        font-family: arial;line-height: 1.2;font-weight: bolder;
+        color: rgba(13, 0, 255, 0.538);
+        font-family: 'Trebuchet MS';line-height: 1.2;font-weight: bolder;
         font-size: 100%;}
       ul {
   width: 600px;
